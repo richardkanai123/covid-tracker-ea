@@ -1,0 +1,81 @@
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: rgba(250, 219, 179, 0.89);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+body h1{
+    display: block;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    color: blue;
+}
+
+#map {
+    height: 80%;
+    width: 60%;
+    opacity: 0.8;
+}
+
+.Statistics{
+    text-align: center;
+    align-items: center;
+    border: solid 2px rgba(71, 71, 71, 0.555);
+    width: 350px;
+    background: rgba( 212, 51, 51, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    opacity: 0.9;
+    z-index: 10;
+}
+
+
+ul{
+    list-style: none;
+    padding: 1rem;
+}
+
+li{
+    border-bottom: solid 1px grey;
+    font-size: 1.3rem;
+}
+
+h3{
+    color: rgb(2, 175, 117);
+}
+
+span{
+    color: rgb(139, 12, 12);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    #map {
+        height: 80%;
+        width: 70%;
+        opacity: 0.99;
+    }
+
+
+    
+}

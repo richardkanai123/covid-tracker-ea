@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EaCovidTracker</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <h1>East Africa Covid-19 Tracker</h1>
+    <div id="map"></div>
+
+    <div class="Statistics">
+      <ul class="card">
+        <li>
+          <h3>Capital City</h3>
+          <span id="CCity"></span>
+        </li>
+        <li>
+          <h3>Confirmed Cases</h3>
+          <span id="TCases"></span>
+        </li>
+        <li>
+          <h3>Recoveries</h3>
+          <span id="RCases"></span>
+        </li>
+        <li>
+          <h3>Deaths</h3>
+          <span id="TDeaths"></span>
+        </li>
+        <li>
+          <h3>Population</h3>
+          <span id="Population"></span>
+        </li>
+        <li>
+          <h3>Life expectancy</h3>
+          <span id="Life"></span>
+        </li>
+        <li>
+          <h3>Update Time</h3>
+          <span id="UpdateTime"></span>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./index.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCocrdql7sUUoMwLi8zlE6rILOJLm-QqIs&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
