@@ -98,7 +98,7 @@ function initMap() {
           path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
           scale: 7,
           fillColor: "red",
-          fillOpacity: 0.6,
+          fillOpacity: 0.7,
         },
         animation: google.maps.Animation.DROP,
         draggable: false,
